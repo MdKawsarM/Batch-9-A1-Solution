@@ -203,11 +203,11 @@ h1 {
 }
 
 .button button {
-    border-radius: 8px;
+    border-radius: 10px;
     background: rgb(255, 0, 0);
     width: 167px;
     height: 56px;
-    border: 2px solid red;
+    border: 3px;
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 20px;
@@ -466,15 +466,16 @@ h1 {
     margin: 120px auto 0 auto;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-   
+
 }
 
-.subscribe-section-content{
+.subscribe-section-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
+
 .subscribe-image {
     width: 150px;
     height: 150px;
@@ -500,6 +501,43 @@ h1 {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 45px;
+}
+
+label {
+    position: relative;
+
+}
+.button-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 122px;
+}
+
+input {
+    border: none;
+    padding: 15px;
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+    width: 250px;
+    height: 20px;
+}
+
+.subscribe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border: none;
+    padding: 15px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+
 }
 
 /* footer styles */
