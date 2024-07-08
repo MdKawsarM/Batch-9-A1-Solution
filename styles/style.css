@@ -168,3 +168,91 @@ h1 {
     width: 100%;
     height: 100%;
 }
+
+.holiday-section-container {
+    width: 1320px;
+    height: 986.07px;
+    margin: 100px auto 0 auto;
+    position: relative;
+
+}
+
+.hoiday-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+
+}
+
+#holiday {
+    color: red;
+}
+
+.hoiday-text-container h5 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hoiday-text-container h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    color: black;
+    padding-top: 16px;
+}
+
+.hoiday-text-container p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 28px;
+}
+
+.solid-color {
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+    width: 1320px;
+    height: 229px;
+    position: absolute;
+    top: 77%;
+}
+
+.giftbox {
+
+    position: absolute;
+    left: 20px;
+    top: 37%;
+    display: flex;
+}
+
+.giftbox img {
+    width: 674.82px;
+    height: 577.96px;
+}
+
+.girl-container {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    left: 21%;
+}
+
+.girl-container img {
+    height: 395px;
+    width: 400px;
+
+}
+
+.discount {
+    position: absolute;
+    left: 55%;
+    top: 40%;
+}
